@@ -329,9 +329,10 @@ th:first-child,td:first-child{
     padding: 20px;
     margin-top: 40px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     list-style-type: none;
     position:relative;
+    height: 80px;
 }
 
 .irai-number {
@@ -344,9 +345,14 @@ th:first-child,td:first-child{
     top:-10px;
     left:13px;
 }
-.irai::after{
-    width: 0px;background: #eeeeee;
+.irai li::after{
+    width: 0px;
     height: 0px;
-    border: 30px solid;
-    border-color:black transparent transparent  transparent;
-  }
+    border: 70px solid;
+    content: "";    border-width: 10px 6px 0 6px;
+    border-color:white transparent transparent  transparent;
+    position: relative;bottom:-53px ; 
+}
+.irai li:last-child::after{
+    border: #137776;
+}
