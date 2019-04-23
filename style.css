@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html{
+    font-size: 14px;
+  }body{
+    font-family:'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', sans-serif !important;
+    }
+    .header{
+        background: #e4fdff;
+    }
+.header-top{
+    color:white;
+    text-align: right;
+    padding: 8px 10px;
+    font-size: 12px;
+    background: #3b72d6;
+}
+.header-main{
+    text-align: center;
+    color:#222222;
+    padding-top: 40px;
+    font-weight: 700;
+    background: #E4FDFF;
+}
+.sub{
+    font-size: 12px;
+    padding-top: 8px;
+}
+.subspan{
+    color: #3b72d6;
+    font-size: 20px;
+}
+.header-title{
+    color: #3b72d6;
+    font-size: 30px;
+
+}
+.header-text{
+    font-size: 12px;
+
+}
+.header-sub{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    padding-top: 20px;
+    height: auto;
+    vertical-align: bottom;
+}
+.img1{
+    width: 82;
+    height: 44.39px;
+    position: relative;bottom:-5px
+}
+.img2{
+    width: 96px;
+    height: 34.22px;
+    margin: 0 20px;
+    position: relative;bottom:-5px
+}
+.img3{
+    width: 84px;
+    height: 40.63px;
+    position: relative;bottom:-5px
+}
+.header-sub2{
+    text-align: center;
+    background: #3b72d6;
+    padding: 18px 0px;
+}
+.header-sub2 p{
+    display: inline;
+    color:#3b72d6;
+    font-weight:bold;
+    font-size: 12px;
+    padding: 4px;
+    background: #fff;
+}
+.sub2span{
+    padding-left: 4px;
+}
+.main-main{
+    background: #fff;
+    padding: 30px 20px;
+}
+.main-top{
+    margin: 0 20px;
+}
+.main-title{
+    font-size: 20px;
+}
+.main-top p{
+    font-size:12px ;
+    padding-top: 10px;
+}
+.main-main h2 {
+    text-align: center;
+}
+.main {
+    text-align: center;
+}
+.main-contents{
+    border: 2px solid #53accf;
+    box-shadow: 0 0 0 4px #7bcdce;
+    margin-top: 40px;
+}
+.main-contents h2{
+    font-size: 16px;
+    margin-top: -15px;
+}
+.main-contents p{
+    font-size: 12px;
+    padding: 10px 18px 15px 18px;
+    text-align: left;
+
+}
+.main-main img{
+    height: auto;
+    position: relative;top:-23px;
+}
+.service1{
+    width:83px ;
+}
+.service2{
+    width: 48px;
+}
+.service3{
+    width:56px;
+}
+.service4{
+    width: 70px;
+}
+.service5{
+    width: 64px;
+}
+.service6{
+    width: 65px;
+}
+.main-service{
+    padding: 30px 20px;
+    background: #7BCDCE;
+}
+.main-service h2{
+    font-size: 20px;
+    padding-bottom: 8px;
+}
+.main-service p{
+    font-size: 12px;
+}
+.service-contents{
+    background: #ffffff;
+    border: 2px solid #285C7E;
+    box-shadow: 0 0 0 4px #5396DB;
+    margin-top: 40px;
+}
+.service-contents h2{
+    font-size: 16px;
+    margin-top: -15px;
+}
+.service-contents p{
+    padding: 0px 18px 16px;
+}
+main img{
+    height: auto;
+    position: relative;top:-23px;
+}
+service-about img{
+    height: auto;
+    position: relative;top:-30px;
+    margin-bottom: 12px;
+    vertical-align: bottom;
+}
+.plan{
+    padding:30px 20px ;
+}
+.plan h2{
+    font-size: 16px;
+}
+.plan p{
+    font-size: 12px;
+
+}
+.planp{
+    margin-top: 10px;
+}
+.a h2{
+    background: #5396DB;
+    color:#fff;
+    padding: 12px 0 14px;
+    margin-bottom: 20px;     
+ 
+}
+.plan-text{
+    color: #5396DB;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+.plan-text2{
+    color:#7BCDCE;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+.plan-service span{
+    font-size: 28px;
+}
+.plan-service p{
+    margin-top: 8px;
+}
+.plan-title{
+    padding-bottom: 26px;
+    border: 4px solid #5396db;
+    border-radius: 10px;
+}
+.b{
+    margin-top: 20px;
+    border: #7BCDCE 4px solid;
+    border-radius: 10px;
+}
+.b h2{
+    color:white;
+    padding: 12px 0 14px;
+    margin-bottom: 20px;
+    background: #7BCDCE;
+}
+ .plan ul{
+    padding-left: 1rem;
+    margin-top: 12px;
+} 
+.plan li{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 6px;
+    list-style-type: none;
+
+}
+.plan li:before {
+	content: '';
+	width: 2px;
+	height: 2px;
+	display: inline-block;
+	border-radius: 100%;
+	background: black;
+	position: relative;
+	left: -15px;
+    top: -3px;
+
+}
+.hikaku{
+    padding: 30px 20px 20px;
+    background: #5396db;
+    color:white;
+}
+.hikaku h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.hikaku p{
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+.hikaku li{
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    list-style-type: none;
+}
+.hikaku span{
+    color:#5396db
+}
+.meyasu{
+    padding: 30px 20px;
+}
+.meyasu h2{
+    font-size: 20px;
+}
+.meyasu p{
+    font-size: 12px;
+    margin: 10px 0 16px;
+}
+table{
+    border-collapse:collapse;
+    border:2px solid #7BCDCE;
+}
+th,td{
+    border:1px solid #eee;
+    padding: 10px;
+    font-size: 12px;
+}
+th{
+    background: #f6f6f6;
+    font-weight: normal;
+}
+th:first-child,td:first-child{
+    text-align: left;
+}
+.meyasu li{
+    font-size: 12px;
+    list-style-type: none;
+    text-align: left;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+.irai{
+    padding: 30px 20px;
+    background: #7bcdce;
+
+}
+.irai h2{
+    font-size: 20px;
+}
+.irai-text{
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+.irai {
+    font-size: 12px;
+
+}
+.irai li {
+    color:#137776;
+    background: white;
+    padding: 20px;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 14px;
+    list-style-type: none;
+    position:relative;
+}
+
+.irai-number {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.1;
+    list-style-type: none;
+    position:absolute;
+    top:-10px;
+    left:13px;
+}
+.irai::after{
+    width: 0px;background: #eeeeee;
+    height: 0px;
+    border: 30px solid;
+    border-color:black transparent transparent  transparent;
+  }
